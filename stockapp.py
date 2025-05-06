@@ -7,7 +7,7 @@ from langchain_core.tools import tool
 
 # Load environment variables
 dotenv.load_dotenv()
-groq_api_key = os.environ.get("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")
+groq_api_key = os.environ.get("updated_stockapp")
 
 # Initialize Groq model
 llm = ChatGroq(api_key=groq_api_key, model="llama3-8b-8192")
